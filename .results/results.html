@@ -1,0 +1,188 @@
+<html lang="en"><head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>jest-stare!</title>
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+	        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/522ee478c4.js" crossorigin="anonymous"></script>
+            <script src="js/view.js"></script>
+        </head><body><div id="test-results" style=" display: flex; flex-direction: column; width: 80%; padding: 25px 0px; margin: auto; font-family: roboto;  margin-top:60px;">{
+  &quot;numFailedTestSuites&quot;: 1,
+  &quot;numFailedTests&quot;: 4,
+  &quot;numPassedTestSuites&quot;: 0,
+  &quot;numPassedTests&quot;: 0,
+  &quot;numPendingTestSuites&quot;: 0,
+  &quot;numPendingTests&quot;: 0,
+  &quot;numRuntimeErrorTestSuites&quot;: 0,
+  &quot;numTodoTests&quot;: 0,
+  &quot;numTotalTestSuites&quot;: 1,
+  &quot;numTotalTests&quot;: 4,
+  &quot;openHandles&quot;: [],
+  &quot;snapshot&quot;: {
+    &quot;added&quot;: 0,
+    &quot;didUpdate&quot;: false,
+    &quot;failure&quot;: false,
+    &quot;filesAdded&quot;: 0,
+    &quot;filesRemoved&quot;: 0,
+    &quot;filesRemovedList&quot;: [],
+    &quot;filesUnmatched&quot;: 0,
+    &quot;filesUpdated&quot;: 0,
+    &quot;matched&quot;: 0,
+    &quot;total&quot;: 0,
+    &quot;unchecked&quot;: 0,
+    &quot;uncheckedKeysByFile&quot;: [],
+    &quot;unmatched&quot;: 0,
+    &quot;updated&quot;: 0
+  },
+  &quot;startTime&quot;: 1618594614283,
+  &quot;success&quot;: false,
+  &quot;testResults&quot;: [
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 4,
+      &quot;numPassingTests&quot;: 0,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1618594615289,
+        &quot;runtime&quot;: 475,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 1618594614814
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0,
+        &quot;uncheckedKeys&quot;: []
+      },
+      &quot;testFilePath&quot;: &quot;/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/.tests/index.test.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Greeting Message&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;matcherResult&quot;: {
+                  &quot;actual&quot;: true,
+                  &quot;expected&quot;: false,
+                  &quot;name&quot;: &quot;toBe&quot;,
+                  &quot;pass&quot;: false
+                }
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/.tests/index.test.js:38:20)\n    at Object.asyncJestTest (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/.tests/index.test.js:38:20)\n    at Object.asyncJestTest (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Greeting MessageA JavaScript file should be created with the name &#x27;index&#x27; in the &#x27;message&#x27; directory&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;A JavaScript file should be created with the name &#x27;index&#x27; in the &#x27;message&#x27; directory&quot;,
+          &quot;id&quot;: &quot;NJSCPLSNFE_TEST_1&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Greeting Message&quot;
+          ],
+          &quot;duration&quot;: 3,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;program&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;program&#x27; of undefined\n    at getListOfTotalIdentifiers (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/.tests/utils.js:25:15)\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/.tests/index.test.js:43:26)\n    at Object.asyncJestTest (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;program&#x27; of undefined\n    at getListOfTotalIdentifiers (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/.tests/utils.js:25:15)\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/.tests/index.test.js:43:26)\n    at Object.asyncJestTest (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Greeting MessageA String should be imported from the file &#x27;index.js&#x27; of the &#x27;greeting&#x27; directory to the &#x27;index.js&#x27; file of the &#x27;message&#x27; directory&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;A String should be imported from the file &#x27;index.js&#x27; of the &#x27;greeting&#x27; directory to the &#x27;index.js&#x27; file of the &#x27;message&#x27; directory&quot;,
+          &quot;id&quot;: &quot;NJSCPLSNFE_TEST_2&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Greeting Message&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;program&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;program&#x27; of undefined\n    at getListOfTotalExports (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/.tests/utils.js:42:15)\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/.tests/index.test.js:53:7)\n    at Object.asyncJestTest (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;program&#x27; of undefined\n    at getListOfTotalExports (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/.tests/utils.js:42:15)\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/.tests/index.test.js:53:7)\n    at Object.asyncJestTest (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Greeting MessageA String should be exported from the file &#x27;index.js&#x27; of the &#x27;message&#x27; directory using the default export syntax&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;A String should be exported from the file &#x27;index.js&#x27; of the &#x27;message&#x27; directory using the default export syntax&quot;,
+          &quot;id&quot;: &quot;NJSCPLSNFE_TEST_3&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Greeting Message&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;matcherResult&quot;: {
+                  &quot;expected&quot;: &quot;Hello Rahul! Mock Text&quot;,
+                  &quot;name&quot;: &quot;toBe&quot;,
+                  &quot;pass&quot;: false
+                }
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \&quot;Hello Rahul! Mock Text\&quot;\nReceived: undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \&quot;Hello Rahul! Mock Text\&quot;\nReceived: undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/.tests/index.test.js:60:21)\n    at Object.asyncJestTest (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \&quot;Hello Rahul! Mock Text\&quot;\nReceived: undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/.tests/index.test.js:60:21)\n    at Object.asyncJestTest (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/bf218019-887a-4a54-ab8d-0836aec88d2a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Greeting MessageA String with the specified text should be exported from the file &#x27;index.js&#x27; of the &#x27;message&#x27; directory&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;A String with the specified text should be exported from the file &#x27;index.js&#x27; of the &#x27;message&#x27; directory&quot;,
+          &quot;id&quot;: &quot;NJSCPLSNFE_TEST_4&quot;
+        }
+      ],
+      &quot;failureMessage&quot;: &quot;  ● :::NJSCPLSNFE_TEST_SUITE_1:::Tests for Greeting Message › :::NJSCPLSNFE_TEST_1:::A JavaScript file should be created with the name &#x27;index&#x27; in the &#x27;message&#x27; directory\n\n    expect(received).toBe(expected) // Object.is equality\n\n    Expected: false\n    Received: true\n\n      36 |     if (isFilePresent) {\n      37 |     } else {\n    &gt; 38 |       expect(true).toBe(false);\n         |                    ^\n      39 |     }\n      40 |   });\n      41 |\n\n      at Object.&lt;anonymous&gt; (index.test.js:38:20)\n\n  ● :::NJSCPLSNFE_TEST_SUITE_1:::Tests for Greeting Message › :::NJSCPLSNFE_TEST_2:::A String should be imported from the file &#x27;index.js&#x27; of the &#x27;greeting&#x27; directory to the &#x27;index.js&#x27; file of the &#x27;message&#x27; directory\n\n    TypeError: Cannot read property &#x27;program&#x27; of undefined\n\n      23 | ) {\n      24 |   const statementsList = [];\n    &gt; 25 |   babelObject.program.body.map((eachStatement) =&gt;\n         |               ^\n      26 |     eachStatement.declarations !== undefined &amp;&amp;\n      27 |     eachStatement.declarations.length !== 0 &amp;&amp;\n      28 |     eachStatement.declarations[0].id.type === \&quot;Identifier\&quot;\n\n      at getListOfTotalIdentifiers (utils.js:25:15)\n      at Object.&lt;anonymous&gt; (index.test.js:43:26)\n\n  ● :::NJSCPLSNFE_TEST_SUITE_1:::Tests for Greeting Message › :::NJSCPLSNFE_TEST_3:::A String should be exported from the file &#x27;index.js&#x27; of the &#x27;message&#x27; directory using the default export syntax\n\n    TypeError: Cannot read property &#x27;program&#x27; of undefined\n\n      40 |   const statementsList = [];\n      41 |\n    &gt; 42 |   babelObject.program.body.map((eachStatement) =&gt;\n         |               ^\n      43 |     eachStatement.expression !== undefined &amp;&amp;\n      44 |     eachStatement.expression.type === \&quot;AssignmentExpression\&quot;\n      45 |       ? statementsList.push({\n\n      at getListOfTotalExports (utils.js:42:15)\n      at Object.&lt;anonymous&gt; (index.test.js:53:7)\n\n  ● :::NJSCPLSNFE_TEST_SUITE_2:::Tests for Greeting Message › :::NJSCPLSNFE_TEST_4:::A String with the specified text should be exported from the file &#x27;index.js&#x27; of the &#x27;message&#x27; directory\n\n    expect(received).toBe(expected) // Object.is equality\n\n    Expected: \&quot;Hello Rahul! Mock Text\&quot;\n    Received: undefined\n\n      58 | describe(\&quot;:::NJSCPLSNFE_TEST_SUITE_2:::Tests for Greeting Message\&quot;, () =&gt; {\n      59 |   it(\&quot;:::NJSCPLSNFE_TEST_4:::A String with the specified text should be exported from the file &#x27;index.js&#x27; of the &#x27;message&#x27; directory\&quot;, () =&gt; {\n    &gt; 60 |     expect(message).toBe(\&quot;Hello Rahul! Mock Text\&quot;);\n         |                     ^\n      61 |   });\n      62 | });\n      63 |\n\n      at Object.&lt;anonymous&gt; (index.test.js:60:21)\n&quot;
+    }
+  ],
+  &quot;wasInterrupted&quot;: false
+}</div></body></html>
